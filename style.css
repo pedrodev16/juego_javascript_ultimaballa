@@ -1,0 +1,84 @@
+
+body{
+padding: 0;
+margin: 0;
+background: #495553;
+}
+#contenedor{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+table {border-collapse: collapse;
+background-image: url('img/map.png');
+background-repeat: round;
+border: solid;
+width: 50%;
+height: 500px;
+}
+
+
+
+
+
+tbody tr td {
+color: #ebebeb;
+padding: 10px;
+width: 55px;
+height: 55px;
+}
+
+td {
+border-style: solid;
+border-color: #cccccc;
+border-width: 1px;}
+
+td:hover{
+background-image: url(img/mira.png);
+background-repeat: round;
+}
+
+#contenedor{
+border: solid red 2px;
+background: darkslategray;
+
+background-image: url(img/radar.png);
+background-size: cover;
+}
+#barra{
+border: solid red 2px;
+background: #06bb39;
+}
+
+
+h1{
+color:rgb(255, 255, 255);
+text-align: center;
+}
+header{
+background-color: rgb(164, 164, 164);   
+}
+#myBar{
+    background:red;
+     height: 24px;
+      width:20%;
+      display: grid;
+}
+
+ .explocion{
+    width: 40px;
+    height: 40px;
+
+}
+.fallo{
+    background-image: url(img/fallo.png);
+    background-repeat: round;
+}
+.bien{
+    background-image: url(img/bien.png);
+    background-repeat: round;
+} #misil{
+    width: 100%;
+}
